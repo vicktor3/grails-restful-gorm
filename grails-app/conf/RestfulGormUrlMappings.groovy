@@ -1,5 +1,5 @@
-import org.codehaus.groovy.grails.commons.ConfigurationHolder
-
+// Grails < 2.4 import org.codehaus.groovy.grails.commons.ConfigurationHolder
+import grails.util.Holders
 @SuppressWarnings("deprecation")
 class RestfulUrlUrlMappings {
 	static mappings = {
